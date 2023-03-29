@@ -5,6 +5,7 @@ mnist_png_d is meaning get mnist data to png file format with docker container.
 ## How to use
 
 The Command in terminal is:
+
     docker build --file Dockerfile -t mnist_png_d .
 
     docker run -it --rm -v mnist_png:/mnist_png --name mnist_png_d mnist_png_d
