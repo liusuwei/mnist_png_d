@@ -10,6 +10,10 @@ The Command in terminal is:
 
     docker run -it --rm -v mnist_png:/mnist_png --name mnist_png_d mnist_png_d
 
+The terminal is return like that:
+
+![image](example.png)
+
 Waiting for program running finish.
 
 And then, please get the converted mnist data by png format in docker volume mnist_png.
