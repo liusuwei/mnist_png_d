@@ -8,6 +8,8 @@ The Command in terminal is:
 
     docker build --file Dockerfile -t mnist_png_d .
 
+And:
+
     docker run -it --rm -v mnist_png:/mnist_png --name mnist_png_d mnist_png_d
 
 The terminal is return like that:
